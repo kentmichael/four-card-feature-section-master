@@ -9,7 +9,7 @@
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
 
-  --font-size-body: 15px;
+  --font-size-body: 0.9375rem;
   --font-family: 'Poppins', sans-serif;
   --font-weight-l: 200;
   --font-weight-reg: 400;
@@ -39,6 +39,7 @@ body {
   padding: 0;
   color: var(--grayish-blue);
   background-color: var(--white);
+  font-size: var(--font-size-body);
 }
 
 div > h1, h2 {
@@ -113,7 +114,7 @@ div[class|=card]::after {
     width: 45%;
   }
   h1 {
-    font-size: 2.3em;
+    font-size: 2.8125rem;
   }
   .card-supervisor {
     grid-area: card1;
